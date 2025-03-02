@@ -1,3 +1,4 @@
+/* styling body */
 body {
   padding: 0;
   margin: 0;
@@ -5,6 +6,7 @@ body {
   background-color: #ffffff;
 }
 
+/* styling navbar */
 .navbar {
   display: flex;
   justify-content: center;
@@ -44,6 +46,7 @@ body {
   color: #161616;
 }
 
+/* styling homepage */
 .home {
   background-image: url("@/assets/findyourvibe.png");
   background-size: cover;
@@ -87,15 +90,6 @@ body {
   right: 17vw;
 }
 
-.category-two {
-  display: flex;
-  flex-direction: row;
-  gap: 3vw;
-  position: absolute;
-  top: 23vw;
-  right: 17vw;
-}
-
 .category-btn {
   width: 6vw;
   height: 6vw;
@@ -114,7 +108,7 @@ body {
   border: 2px solid transparent;
 }
 
-/* Warna button */
+/* Warna button category */
 .category-btn.men {
   background: linear-gradient(135deg, #007bff, #001b37);
 }
@@ -123,7 +117,7 @@ body {
   background: linear-gradient(135deg, #ff4081, #410018);
 }
 
-/* Hover effect */
+/* Hover effect  button category*/
 .category-btn:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
@@ -142,6 +136,7 @@ body {
   opacity: 0.8;
 }
 
+/* styling women's clothing page */
 .page-women {
   background: 
     url('@/assets/bg-pattern.png'),
@@ -151,6 +146,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* styling men's clothing page */
 .page-men {
   background: 
     url('@/assets/bg-pattern.png'),
@@ -160,6 +156,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* styling unavailable page */
 .page-unavailable {
   background: 
     linear-gradient(to bottom, #DCDCDC 85%, #ffffff 50%); /* Warna gradient */
@@ -168,6 +165,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* styling card product */
 .container {
   display: flex;
   justify-content: center;
@@ -175,14 +173,7 @@ body {
   height: 100vh;
 }
 
-.our-products-title {
-  text-align: center;
-  font-size: 32px; 
-  font-weight: bold;
-  margin: 20px 0;
-  background: transparent; 
-}
-
+/* kotak produk */
 .product-card {
   display: flex;
   gap: 5vw;
@@ -196,6 +187,7 @@ body {
   text-align: left;
 }
 
+/* gambar produk */
 .product-image {
   max-width: 230px;
   object-fit: cover;
@@ -203,10 +195,12 @@ body {
   padding-left: 2vw;
 }
 
+/* deskripsi gambar */
 .description-image {
   flex: 1;
 }
 
+/* judul produk */
 .product-title {
   font-size: 1.6vw;
   font-weight: bold;
@@ -221,16 +215,18 @@ body {
   color: #720060; /* Pink untuk Women's Clothing */
 }
 
-.product-category {
-  font-size: 1vw;
-  color: #777;
-}
-
+/* kategori produk */
 .desc-box {
   display: flex;
   justify-content: space-between;
 }
 
+.product-category {
+  font-size: 1vw;
+  color: #777;
+}
+
+/* rating produk */
 .product-rating {
   font-size: 1vw;
   display: flex;
@@ -238,6 +234,7 @@ body {
   gap: 5px;
 }
 
+/* circle rating */
 .star {
   width: 1vw;
   height: 1vw;
@@ -257,6 +254,7 @@ body {
   background-color: #ccc; /* Warna abu buat bintang kosong */
 }
 
+/* deskripsi produk */
 .product-description {
   font-size: 1vw;
   color: #555;
@@ -266,6 +264,7 @@ body {
   text-align: justify; /* Biar teks rata kanan-kiri */
 }
 
+/* harga prosduk */
 .product-price {
   font-size: 1.7vw;
   font-weight: bold;
@@ -282,6 +281,7 @@ body {
   color: #720060; /* Pink untuk Women's Clothing */
 }
 
+/* styling button produk */
 .button-group {
   display: flex;
   gap: 12px;
